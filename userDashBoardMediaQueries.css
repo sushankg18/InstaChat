@@ -1,0 +1,18 @@
+@media (max-width: 769px) {
+    .logo img{
+        display: none;
+    }
+    .logo svg{
+        display: block;
+    }
+    .sidebar{
+        width: 9rem;
+    }
+    .sidebar-menu{
+        align-items: center;
+        
+    }
+    .sidebar-menu p{
+        display: none;
+    }
+}
