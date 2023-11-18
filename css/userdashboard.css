@@ -15,7 +15,7 @@ html {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     color: white;
 }
@@ -23,7 +23,7 @@ html {
 .navbar {
     display: none;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     padding: 1rem;
     border-bottom: 2px solid #262626;
 }
@@ -120,7 +120,7 @@ svg {
 
 .dashboard-upside {
     display: flex;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid #262626;
 }
 
@@ -193,6 +193,7 @@ svg {
 .timeline-section {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .timeline-section-div {
@@ -220,7 +221,7 @@ svg {
 .main-posts-div {
     display: flex;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
 }
 
 .posts-div {

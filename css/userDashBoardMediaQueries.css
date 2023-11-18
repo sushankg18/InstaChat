@@ -34,7 +34,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .sidebar {
         display: none;
     }
@@ -46,7 +46,18 @@
 
     .navbar {
         display: flex;
+        width: 100vw;
+
     }
+
+    .timeline-section {
+        width: 100vw;
+    }
+
+    .dashboard-upside {
+        width: 100vw;
+    }
+
     .upside-right-main-texts {
         display: flex;
         align-items: center;
@@ -57,40 +68,38 @@
 @media (max-width: 740px) {
 
     .main-posts-div {
-        width: 100vw;
+        width: 100%;
     }
-    .like-comment{
+
+    .like-comment {
         display: none;
     }
-    
+
 
     .posts-div {
         padding: 0% 0%;
         gap: .3rem;
     }
 }
-@media (max-width: 426px){
-    .post {
-        width: 15rem;
-        height: 15rem;
+
+@media (max-width: 426px) {
+    .bio-div {
+        display: none;
     }
-}
-@media (max-width: 376px) {
+
     .upside-right-main-texts {
         display: none;
     }
 
-    .upside-right {
-        padding: 1rem;
-        height: fit-content;
-    }
-    
-    .bio-div{
-        display: none;
-    }
     .upside-left {
         height: fit-content;
-        flex-direction: column;
+        width: fit-content;
+        padding: 0 1rem;
+    }
+
+    .dashboard-upside {
+        width: 100vw;
+        padding: 1.2rem 0;
     }
 
     .profile-pic {
@@ -98,38 +107,75 @@
         height: 10rem;
     }
 
+
+    .main-posts-div {
+        width: 100vw;
+    }
+
+    .posts-div {
+        justify-content: space-evenly;
+    }
+
     .post {
-        width: 10rem;
-        height: 10rem;
+        width: 13rem;
+        height: 13rem;
     }
 
     .timeline-section-div {
         width: 80%;
     }
+
+    .upside-right {
+        padding: .1rem 1rem;
+        height: fit-content;
+
+    }
+
 }
 
-@media (max-width: 321px){
-    .upside-left{
+@media (max-width: 376px) {
+
+    .profile-pic {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .main-posts-div {
+        width: 100vw;
+    }
+
+    .post {
+        width: 12rem;
+        height: 12rem;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .upside-left {
         padding: 1rem 0;
     }
-    .profile-pic{
-        width: 9rem ;
+
+    .profile-pic {
+        width: 9rem;
         height: 9rem;
     }
-    .upside-right-main p{
+
+    .upside-right-main p {
         font-size: 2rem;
     }
-    .username p{
+
+    .username p {
         font-size: 1.6rem;
     }
-    .followers-div{
+
+    .followers-div {
         font-size: 1.3rem;
     }
-    .post{
+
+    .post {
         width: 10rem;
-        height:10rem;
+        height: 10rem;
     }
-    .bio-div-small-screen{
-        display: block;
-    }
+
 }
