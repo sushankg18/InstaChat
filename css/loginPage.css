@@ -5,9 +5,6 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-*::selection {
-    user-select: none;
-}
 
 html{
     font-size: 62.5%;
@@ -104,6 +101,9 @@ h1 {
     margin-bottom: 3rem;
 }
 
+#username , #password{
+    padding-left: 1rem;
+}
 h2 {
     font-size: 4rem;
 }

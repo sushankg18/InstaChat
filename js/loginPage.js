@@ -12,7 +12,7 @@ const loginButton = document.getElementById('login');
                     if (username.value.trim() === "" || password.value.trim() === "") {
                         alert('Please fill all the given fields');
                         loadingLine.style.visibility = 'hidden';
-                    } else if (username.value === 'sushank' && password.value === 'sushank') {
+                    } else if (username.value === 'user' && password.value === 'user') {
                         window.location.href = 'userdashboard.html';
                     } else {
                         invalidUsername.style.display = "block";
