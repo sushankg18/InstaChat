@@ -107,3 +107,29 @@
         width: 80%;
     }
 }
+
+@media (max-width: 321px){
+    .upside-left{
+        padding: 1rem 0;
+    }
+    .profile-pic{
+        width: 9rem ;
+        height: 9rem;
+    }
+    .upside-right-main p{
+        font-size: 2rem;
+    }
+    .username p{
+        font-size: 1.6rem;
+    }
+    .followers-div{
+        font-size: 1.3rem;
+    }
+    .post{
+        width: 10rem;
+        height:10rem;
+    }
+    .bio-div-small-screen{
+        display: block;
+    }
+}

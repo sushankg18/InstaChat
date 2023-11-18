@@ -187,7 +187,9 @@ svg {
     padding: .6rem 1rem;
     width: 100%;
 }
-
+.bio-div-small-screen{
+    display: none;
+}
 .timeline-section {
     display: flex;
     justify-content: center;
